@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
-  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup">
-  <meta name="author" content="elemis">
-  <title>About - Veritable Data Solutions</title>
-  <link rel="shortcut icon" href="assets/img/favicon.png">
-  <link rel="stylesheet" href="assets/css/plugins.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <title>About - Ziofy Solutions</title>
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -21,22 +16,26 @@
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="index.html">
-              <img src="assets/img/logo dark1.png" srcset="./assets/img/logo dark1.png" alt="" />
+            <a href="./index.html">
+              <img src="./assets/img/ziofy solutions master logo.png" srcset="./assets/img/ziofy solutions master logo.png 2x" alt="" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas-nav">
             <div class="offcanvas-header d-lg-none d-xl-none">
-              <a href="index.html"><img src="assets/img/logo dark1.png" srcset="./assets/img/logo dark1.png" alt="" /></a>
+              <a href="./index.html"><img src="./assets/img/ziofy solutions master logo.png" srcset="./assets/img/ziofy solutions master logo.png 2x" alt="" /></a>
               <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
             </div>
             <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
                 
+                <!--/.dropdown-menu -->
               </li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="about.html">About</a>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="about">About</a>
+                
               </li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="contact.html">Contact Us</a>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a>
+                
+                <!--/.dropdown-menu -->
               </li>
             </ul>
             <!-- /.navbar-nav -->
@@ -44,11 +43,10 @@
           <!-- /.navbar-collapse -->
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
-              <li class="nav-item dropdown language-select text-uppercase">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>
-                
+              
+              <li class="nav-item d-none d-md-block">
+                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill">Contact</a>
               </li>
-              <li class="nav-item"><a class="nav-link" data-toggle="offcanvas-info"><i class="uil uil-info-circle"></i></a></li>
               <li class="nav-item d-lg-none">
                 <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
               </li>
@@ -56,43 +54,6 @@
             <!-- /.navbar-nav -->
           </div>
           <!-- /.navbar-other -->
-          <div class="offcanvas-info text-inverse">
-            <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-info-close" aria-label="Close"></button>
-            <a href="index.html"><img src="assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" /></a>
-            <div class="mt-4 widget">
-              <p>Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.</p>
-            </div>
-            <!-- /.widget -->
-            <div class="widget">
-              <h4 class="widget-title text-white mb-3">Contact Info</h4>
-              <address> Moonshine St. 14/05 <br /> Light City, London </address>
-              <a href="mailto:first.last@email.com">info@email.com</a><br /> +00 (123) 456 78 90
-            </div>
-            <!-- /.widget -->
-            <div class="widget">
-              <h4 class="widget-title text-white mb-3">Learn More</h4>
-              <ul class="list-unstyled">
-                <li><a href="#">Our Story</a></li>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </div>
-            <!-- /.widget -->
-            <div class="widget">
-              <h4 class="widget-title text-white mb-3">Follow Us</h4>
-              <nav class="nav social social-white">
-                <a href="#"><i class="uil uil-twitter"></i></a>
-                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                <a href="#"><i class="uil uil-dribbble"></i></a>
-                <a href="#"><i class="uil uil-instagram"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
-              </nav>
-              <!-- /.social -->
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /.offcanvas-info -->
         </div>
         <!-- /.container -->
       </nav>
@@ -117,7 +78,7 @@
       <div class="container pb-14 pb-md-16">
         <div class="row text-center mb-12 mb-md-15">
           <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-n18 mt-md-n22">
-            <figure><img class="w-auto" src="assets/img/illustrations/i8.png" srcset="./assets/img/illustrations/i8@2x.png 2x" alt="" /></figure>
+            <figure><img class="w-auto" src="./assets/img/concept/concept8.png" srcset="./assets/img/concept/concept8@2x.png 2x" alt="" /></figure>
           </div>
           <!-- /column -->
         </div>
@@ -126,19 +87,19 @@
           <div class="col-lg-6 order-lg-2">
             <ul class="progress-list">
               <li>
-                <p>Promote</p>
+                <p>Marketing</p>
                 <div class="progressbar line blue" data-value="100"></div>
               </li>
               <li>
-                <p>Prioritize</p>
+                <p>Sales</p>
                 <div class="progressbar line green" data-value="80"></div>
               </li>
               <li>
-                <p>Acquire</p>
+                <p>Networking</p>
                 <div class="progressbar line yellow" data-value="85"></div>
               </li>
               <li>
-                <p>Evaluate</p>
+                <p>Decision Making</p>
                 <div class="progressbar line orange" data-value="90"></div>
               </li>
             </ul>
@@ -146,14 +107,39 @@
           </div>
           <!--/column -->
           <div class="col-lg-6">
-            <h3 class="display-5 mb-5">Who We Are</h3>
-            <p>Since 2010, the company has been generating leads for some of the world's most prestigious businesses. With its cutting-edge data and lead solutions, Veritable Data Solutions has earned a name for itself in the ever-changing sector of B2B marketing and sales. Through personalised databases, increased connectivity with qualified prospects wanting information to go forward in the purchase process, and simpler engagement via phone, email, direct mail, and social media, Veritable Data Solutions helps you achieve your business objectives.</p>
-            <p>Veritable Data Solutions  provides Data Intelligence and Lead Management solutions to aid in the formulation of efficient campaign plans. We can assure you that collaborating with us will be beneficial to you.</p>
+            <h3 class="display-5 mb-5">Who We Are.</h3>
+            <p>Since 2010, the company has been generating leads for some of the world's most prestigious businesses. With its cutting-edge data and lead solutions, Ziofy Solutions has earned a name for itself in the ever-changing sector of B2B marketing and sales. Through personalised databases, increased connectivity with qualified prospects wanting information to go forward in the purchase process, and simpler engagement via phone, email, direct mail, and social media, Ziofy Solutions helps you achieve your business objectives.</p>
+            <p>Ziofy Solutions  provides Data Intelligence and Lead Management solutions to aid in the formulation of efficient campaign plans. We can assure you that collaborating with us will be beneficial to you.</p>
           </div>
           <!--/column -->
         </div>
         <!--/.row -->
-        
+        <div class="row gx-lg-8 gx-xl-12 gy-6 gy-md-0 text-center">
+          <div class="col-md-6 col-lg-3">
+            <img src="./assets/img/icons/megaphone.svg" class="svg-inject icon-svg icon-svg-md text-blue mb-3" alt="" />
+            <h4>Company Information</h4>
+            <p class="mb-2">Over 31 Million company records for faster connectivity.</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <img src="./assets/img/icons/target.svg" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
+            <h4>Executive Database</h4>
+            <p class="mb-2">Precision targeted Contact Records of Top Executives.</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <img src="./assets/img/icons/settings-3.svg" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
+            <h4>Health Care Lists</h4>
+            <p class="mb-2">More than 10 Million accurate records of Healthcare Professionals.</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <img src="./assets/img/icons/bar-chart.svg" class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+            <h4>Technology Insights</h4>
+            <p class="mb-2">Highly Responsive contact records of global IT decision makers & professionals.</p>
+          </div>
+          <!--/column -->
+        </div>
         <!--/.row -->
       </div>
       <!-- /.container -->
@@ -163,41 +149,93 @@
       <div class="container py-14 py-md-16">
         <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-16 align-items-center">
           <div class="col-lg-7">
-            <figure><img class="w-auto" src="assets/img/illustrations/i3.png" srcset="./assets/img/illustrations/i3@2x.png 2x" alt="" /></figure>
+            <figure><img class="w-auto" src="./assets/img/concept/concept3.png" srcset="./assets/img/concept/concept3@2x.png 2x" alt="" /></figure>
           </div>
           <!--/column -->
           <div class="col-lg-5">
-            <h3 class="display-5 mb-7 pe-xxl-5">Our Mission</h3>
+            <h2 class="fs-15 text-uppercase text-line text-primary mb-3">How It Works?</h2>
+            <h3 class="display-5 mb-7 pe-xxl-5">An Array of Associated Services.</h3>
             <div class="d-flex flex-row mb-4">
               <div>
-                <img src="assets/img/icons/lineal/light-bulb.svg" class="svg-inject icon-svg icon-svg-sm text-blue me-4" alt="" />
+                <img src="./assets/img/icons/light-bulb.svg" class="svg-inject icon-svg icon-svg-sm text-blue me-4" alt="" />
               </div>
               <div>
-                <p>We aspire to empower organisations and aid them in attaining long-term growth through our 360-degree data-driven intelligence and solutions. We assist clients in identifying, connecting with, nurturing, and converting their high-value prospects through successful marketing and sales initiatives.</p>
+                <h4 class="mb-1">List Your Business</h4>
+                <p class="mb-1">Promote through Focused Campaigns.</p>
               </div>
             </div>
-            
-            
+            <div class="d-flex flex-row mb-4">
+              <div>
+                <img src="./assets/img/icons/pie-chart-2.svg" class="svg-inject icon-svg icon-svg-sm text-green me-4" alt="" />
+              </div>
+              <div>
+                <h4 class="mb-1">Developer Portal</h4>
+                <p class="mb-1">Score & Prioritize Leads Score.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/icons/design.svg" class="svg-inject icon-svg icon-svg-sm text-yellow me-4" alt="" />
+              </div>
+              <div>
+                <h4 class="mb-1">B2B Exchange</h4>
+                <p class="mb-0">Convert Qualified Leads Close deals faster with qualified leads.</p>
+              </div>
+            </div>
           </div>
           <!--/column -->
         </div>
         <!--/.row -->
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-lg-7 order-lg-2">
-            <figure><img class="w-auto" src="assets/img/illustrations/i2.png" srcset="./assets/img/illustrations/i2@2x.png 2x" alt="" /></figure>
+            <figure><img class="w-auto" src="./assets/img/concept/concept2.png" srcset="./assets/img/concept/concept2@2x.png 2x" alt="" /></figure>
           </div>
           <!--/column -->
           <div class="col-lg-5">
             <h2 class="fs-15 text-uppercase text-line text-primary mb-3">Why Choose Us?</h2>
-            <h3 class="display-5 mb-7">Our Values</h3>
-            <div class="accordion accordion-wrapper" id="accordionExample">               
-                                
-                    <p>Our guiding idea is to empower B2B businesses with real-time data insights and to encourage them to use data-driven marketing solutions for lead generation and conversion.</p>
-                  
-                  
-              
+            <h3 class="display-5 mb-7">A few reasons why our valued customers choose us.</h3>
+            <div class="accordion accordion-wrapper" id="accordionExample">
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingOne">
+                  <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Marketing </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Utilize our dynamic data platform to market at the most opportune times.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
               <!--/.accordion-item -->
-              
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingTwo">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Sales </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Navigate leads faster down the funnel, convert them faster and win larger profits.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingThree">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Decision-Making </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Make decisions faster powered by the best marketing data sets to boost sales.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
               <!--/.accordion-item -->
             </div>
             <!--/.accordion -->
@@ -211,13 +249,96 @@
     <!-- /section -->
     
     <!-- /section -->
-    
+    <section class="wrapper bg-gray">
+      <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 align-items-center">
+          <div class="col-lg-7 order-lg-2">
+            <figure><img class="w-auto" src="./assets/img/concept/concept4.png" srcset="./assets/img/concept/concept4@2x.png 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5 mt-lg-12">
+            <div class="basic-slider owl-carousel gap-small" data-margin="30">
+              <div class="item">
+                <blockquote class="icon icon-top fs-lg text-center">
+                  <p>“Ziofy solutions is one of the best genuine data provider.”</p>
+                  <div class="blockquote-details justify-content-center text-center">
+                    <div class="info ps-0">
+                      <h5 class="mb-1">Coriss Ambady</h5>
+                      <p class="mb-0">Financial Analyst</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.item -->
+              <div class="item">
+                <blockquote class="icon icon-top fs-lg text-center">
+                  <p>“I am was in need of healthcare leads. Ziofy solutions fulfiled it easily.”</p>
+                  <div class="blockquote-details justify-content-center text-center">
+                    <div class="info ps-0">
+                      <h5 class="mb-1">Cory Zamora</h5>
+                      <p class="mb-0">Marketing Specialist</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.item -->
+              <div class="item">
+                <blockquote class="icon icon-top fs-lg text-center">
+                  <p>“Ziofy Solutions is the #1 data marketplace for location data.”</p>
+                  <div class="blockquote-details justify-content-center text-center">
+                    <div class="info ps-0">
+                      <h5 class="mb-1">Barclay Widerski</h5>
+                      <p class="mb-0">Sales Specialist</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.item -->
+            </div>
+            <!-- /.owl-carousel -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="px-lg-5">
+          <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c1.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c2.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c3.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c4.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c5.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/brands/c6.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /div -->
+      </div>
+      <!-- /.container -->
+    </section>
     <!-- /section -->
     <section class="wrapper bg-light">
       <div class="container py-14 py-md-16">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-lg-7">
-            <figure><img class="w-auto" src="assets/img/illustrations/i5.png" srcset="./assets/img/illustrations/i5@2x.png 2x" alt="" /></figure>
+            <figure><img class="w-auto" src="./assets/img/concept/concept5.png" srcset="./assets/img/concept/concept5@2x.png 2x" alt="" /></figure>
           </div>
           <!--/column -->
           <div class="col-lg-5">
@@ -247,7 +368,7 @@
               </div>
               <div>
                 <h5 class="mb-1">E-mail</h5>
-                <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">support@veritabledatasolutions.com</a></p>
+                <p class="mb-0"><a href="mailto:info@ziofysolutions.com" class="link-body">info@ziofysolutions.com</a></p>
               </div>
             </div>
           </div>
@@ -260,19 +381,13 @@
     <!-- /section -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="bg-navy text-inverse">
-    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
-      <div class="d-lg-flex flex-row align-items-lg-center">
-        <h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">Join our community by using our services and grow your business.</h3>
-        <a href="contact.html" class="btn btn-primary rounded-pill mb-0 text-nowrap">Try It Now</a>
-      </div>
-      <!--/div -->
-      <hr class="mt-11 mb-12" />
+  <footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
       <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
           <div class="widget">
-            <img class="mb-4" src="assets/img/footer logo dark.png" srcset="./assets/img/footer logo dark.png" alt="" />
-            <p class="mb-4">Since 2010 <br/>© Veritable Data Solutions. <br class="d-none d-lg-block" />All Rights Reserved.</p>
+            <img class="mb-4" src="./assets/img/ziofy solutions master logo.png" srcset="./assets/img/ziofy solutions master logo.png 2x" alt="" />
+            <p class="mb-4">Since 2010 <br/>© Ziofy Solutions. <br class="d-none d-lg-block" />All Rights Reserved.</p>
             
             <!-- /.social -->
           </div>
@@ -292,8 +407,8 @@
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Learn More</h4>
             <ul class="list-unstyled  mb-0">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact US</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact US</a></li>
               <li><a href="#">Terms of Use</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
@@ -313,7 +428,7 @@
                     <div class="mc-field-group input-group form-floating">
                       <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
                       <label for="mce-EMAIL2">Email Address</label>
-                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary">
                     </div>
                     <div id="mce-responses2" class="clear">
                       <div class="response" id="mce-error-response2" style="display:none"></div>
@@ -341,11 +456,10 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
-  <script src="../cdn.jsdelivr.net/npm/bootstrap%405.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/theme.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
 </body>
-
 
 </html>
